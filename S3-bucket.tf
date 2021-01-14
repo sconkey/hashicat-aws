@@ -6,4 +6,5 @@ acceleration_status = ""
 bucket = ""
 bucket_prefix = "scottconkey"
 policy = ""
+request_payer = ""
 }
