@@ -129,6 +129,9 @@ resource "aws_instance" "hashicat" {
   tags = {
     Department = "Department"
   }
+  tags = {
+    Billable = "true"
+  }
 }
 
 # We're using a little trick here so we can run the provisioner without
