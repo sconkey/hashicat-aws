@@ -1,6 +1,6 @@
 provider "aws" {
   version = "~> 3.0"
-  region  = var.region
+  region  = "us-east-1"
 }
 
 resource "aws_vpc" "hashicat" {
